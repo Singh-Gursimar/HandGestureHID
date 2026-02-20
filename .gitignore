@@ -1,0 +1,30 @@
+# ---- Build artifacts ----
+src/driver/hid_driver
+src/driver/*.o
+*.o
+
+# ---- Python ----
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.venv/
+
+# ---- ML Models (large binary – download via setup.sh) ----
+models/*.task
+
+# ---- IDE / Editor ----
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ---- pytest ----
+.pytest_cache/
+
+# ---- OS ----
+.DS_Store
+Thumbs.db
